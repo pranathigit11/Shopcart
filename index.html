@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopcart</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">shopcart</div>
+      <input id="searchInput" type="search" placeholder="Search products" aria-label="Search products" />
+      <button id="cartButton" class="cart-button" type="button">
+        Cart (<span id="cartCount">0</span>)
+      </button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Everything you need, delivered fast.</h1>
+        <p>Explore daily essentials, electronics, and lifestyle picks.</p>
+      </section>
+
+      <section class="categories">
+        <button type="button" data-category="All">All</button>
+        <button type="button" data-category="Electronics">Electronics</button>
+        <button type="button" data-category="Home">Home</button>
+        <button type="button" data-category="Fashion">Fashion</button>
+      </section>
+
+      <section id="productGrid" class="product-grid" aria-live="polite"></section>
+    </main>
+
+    <aside id="cartPanel" class="cart-panel hidden" aria-label="Shopping cart">
+      <div class="cart-header">
+        <h2>Your Cart</h2>
+        <button id="closeCart" type="button">Close</button>
+      </div>
+      <ul id="cartItems" class="cart-items"></ul>
+      <div class="cart-footer">
+        <strong>Subtotal: $<span id="subtotal">0.00</span></strong>
+      </div>
+    </aside>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

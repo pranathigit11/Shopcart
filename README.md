@@ -1,2 +1,12 @@
 # Shopcart
-creating a shopping website 
+
+A simple Amazon-inspired shopping website with:
+
+- Hero section and category shortcuts
+- Product grid with ratings and prices
+- Add-to-cart functionality
+- Live cart item count and subtotal
+
+## Run locally
+
+Open `/home/runner/work/Shopcart/Shopcart/index.html` in your browser.
