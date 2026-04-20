@@ -1,9 +1,9 @@
 const products = [
   { id: 1, name: "Wireless Earbuds", category: "Electronics", rating: 4.4, price: 39.99 },
-  { id: 2, name: "Smart Watch", category: "Electronics", rating: 4.2, price: 89.0 },
-  { id: 3, name: "Coffee Maker", category: "Home", rating: 4.1, price: 59.5 },
+  { id: 2, name: "Smart Watch", category: "Electronics", rating: 4.2, price: 89.00 },
+  { id: 3, name: "Coffee Maker", category: "Home", rating: 4.1, price: 59.50 },
   { id: 4, name: "Air Fryer", category: "Home", rating: 4.6, price: 99.99 },
-  { id: 5, name: "Denim Jacket", category: "Fashion", rating: 4.0, price: 49.0 },
+  { id: 5, name: "Denim Jacket", category: "Fashion", rating: 4.0, price: 49.00 },
   { id: 6, name: "Running Shoes", category: "Fashion", rating: 4.5, price: 64.99 }
 ];
 

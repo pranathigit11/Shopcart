@@ -9,4 +9,4 @@ A simple Amazon-inspired shopping website with:
 
 ## Run locally
 
-Open `/home/runner/work/Shopcart/Shopcart/index.html` in your browser.
+Open `index.html` in your browser.
